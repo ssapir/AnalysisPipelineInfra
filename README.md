@@ -5,6 +5,8 @@ Common functions and infrastructure built during my PhD projects
 ## Overview
 The main script is run_analysis_pipeline.sh, as an example of a slurm-based pipeline.
 
+In addition, utils folder contains my opencv-based common functions (tbd add more)
+
 ### Pipeline supporting scripts
 Scripts used by run_analysis_pipeline.sh:
 * python_scripts - contains help scripts:
