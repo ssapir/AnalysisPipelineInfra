@@ -14,7 +14,6 @@ Scripts used by run_analysis_pipeline.sh:
   * extract_raw_and_motion_corr_traces.py: creates data traces from caiman's output (hdf5 and mat files) as a mat file.
 * matlab_functions folder contains functions triggered by the pipeline:
   * visualize_raw_data_and_stimulus.m: movie visualization of raw data (from tiff files), annotated with stimulus
-  * read_thorsync_stimulus_output.m: align stimulus-design with recording pulse outputs.
 
  #### Add script/stage to the pipeline
  * Matlab: sbatch $scripts_dir/run_general_matlab_script.sh $dataset_path $data_folder <matlab function name> "<additional args if needed, sep by comma>"
