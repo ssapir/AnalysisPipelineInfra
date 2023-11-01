@@ -7,6 +7,8 @@ The main script is run_analysis_pipeline.sh, as an example of a slurm-based pipe
 
 In addition, utils folder contains my opencv-based common functions (tbd add more)
 
+(For my phd I used parameter files passed to the main script for more flexibility. Not added here due to privacy)
+
 ### Pipeline supporting scripts
 Scripts used by run_analysis_pipeline.sh:
 * python_scripts - contains help scripts:
